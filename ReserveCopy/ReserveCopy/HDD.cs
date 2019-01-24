@@ -18,7 +18,7 @@ namespace ReserveCopy
         }
         public override void AllInfo()
         {
-            Console.WriteLine($"Скорость: {Speed}. Кол-во разделов: {CountOfSections}. Размер одного раздела: {SizeOfSections}")
+            Console.WriteLine($"Название: {Name}. Модель: {Model}. Скорость: {Speed}. Кол-во разделов: {CountOfSections}. Размер одного раздела: {SizeOfSections}");
         }
     }
 }

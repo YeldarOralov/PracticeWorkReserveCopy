@@ -22,7 +22,7 @@ namespace ReserveCopy
         }
         public override void AllInfo()
         {
-            Console.WriteLine($"Скорость чтения: {SpeedOfRead}. Скорость записи: {SpeedOfWrite}. Тип: {Side}.")
+            Console.WriteLine($"Название: {Name}. Модель: {Model}. Скорость чтения: {SpeedOfRead}. Скорость записи: {SpeedOfWrite}. Тип: {Side}.");
         }
     }
 }

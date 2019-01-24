@@ -17,7 +17,7 @@ namespace ReserveCopy
         }
         public override void AllInfo()
         {
-            Console.WriteLine($"Скорость: {Speed}. Память: {Memory}");
+            Console.WriteLine($"Название: {Name}. Модель: {Model}. Скорость: {Speed}. Память: {Memory}");
         }
     }
 }
